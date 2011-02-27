@@ -1,0 +1,8 @@
+This project contains my first steps in generating a heatmap with a java jar. With a GIS background, I am investigating the possibilities of using standard imaging techniques to generate heatmaps instead of slow and memory consuming "real" GIS functions to create grids.
+
+My idea is that heatmaps should be approached as "spray-painted dots" where two rules apply:
+
+1. The position of the dot determines the center of the spray-paint
+2. The weight of the dot determines "how long you press the button on your paintbrush"
+
+Because you spray, all dots will eventually effect each other. The effects can be calculated mathematically to generate good looking heatmaps.
